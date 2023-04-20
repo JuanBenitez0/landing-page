@@ -5,7 +5,7 @@
 }
 
 img {
-  max-width: 4rem;
+  max-width: 3rem;
   height: auto;
 }
 
@@ -15,7 +15,8 @@ body {
 }
 
 div {
-  margin: 1rem 10rem;
+  position: absolute;
+  margin: 1rem 5rem;
   background-color: white;
   border: 1px #d9dcde;
   border-radius: 5px;
@@ -27,9 +28,11 @@ section {
 
 nav {
   display: flex;
-  gap: 40rem;
+  flex-flow: row nowrap;
+  gap: 45rem;
   align-items: center;
   justify-content: space-evenly;
+  padding: 1rem 1rem;
 }
 
 ul {
