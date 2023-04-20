@@ -5,8 +5,9 @@
 }
 
 img {
-  max-width: 3rem;
+  max-width: 2.5rem;
   height: auto;
+  padding: 0.5rem 0;
 }
 
 body {
@@ -29,7 +30,7 @@ section {
 nav {
   display: flex;
   flex-flow: row nowrap;
-  gap: 45rem;
+  gap: 30rem;
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem 1rem;
@@ -37,13 +38,24 @@ nav {
 
 ul {
   list-style: none;
-  gap: 3rem;
+  gap: 2.5rem;
   display: flex;
+  font-size: 1.1rem;
 }
 
 a {
-  color: black;
+  color: #3a5a40;
   text-decoration: none;
+  background-color: transparent;
+  padding: 0.3rem 1rem;
+  border-radius: 1.5rem;
+}
+
+a:hover {
+  color: white;
+  background-color: #3a5a40;
+  padding: 0.3rem 1rem;
+  border-radius: 1.5rem;
 }
 
 p {
