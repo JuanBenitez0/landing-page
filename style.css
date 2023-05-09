@@ -231,8 +231,7 @@ main {
 
 #product {
   width: 100%;
-  height: 600px;
-  margin: 2% 0;
+  height: min-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -241,7 +240,8 @@ main {
 
 .product-top,
 .product-bottom {
-  width: 100%;
+  margin: 2% 2%;
+  width: 96%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -524,14 +524,6 @@ footer {
     height: 700px;
   }
 
-  #product {
-    height: 500px;
-  }
-
-  .product-top h2 {
-    font-size: 38px;
-  }
-
   /* Outlet */
 
   .style-card img {
@@ -596,13 +588,12 @@ footer {
 
   /* hero - End */
 
-  #product {
-    height: 450px;
-    margin-top: 0;
+  .product-top h2 {
+    font-size: 45px;
   }
 
-  .product-top h2 {
-    font-size: 38px;
+  .product-bottom h3 {
+    font-size: 20px;
   }
 
   #outlet-styles,
@@ -650,10 +641,6 @@ footer {
 
   /* header - End */
 
-  main {
-    font-size: 90%;
-  }
-
   /* hero */
 
   #hero {
@@ -682,18 +669,12 @@ footer {
 
   /* hero - End */
 
-  #product {
-    height: 375px;
-    margin-top: 0;
-  }
-
   .product-top h2 {
-    font-size: 22px;
+    font-size: 35px;
   }
 
-  .product-bottom h3,
-  .product-bottom button {
-    font-size: 90%;
+  .product-bottom h3 {
+    font-size: 20px;
   }
 
   #outlet-styles,
@@ -727,6 +708,10 @@ footer {
     cursor: pointer;
   }
 
+  .header .logo img {
+    max-width: 500%;
+  }
+
   .header .logo {
     margin: 0 65% 0 2.5%;
   }
@@ -742,16 +727,18 @@ footer {
   /* header - End */
 
   main {
-    font-size: 80%;
+    font-size: 70%;
   }
 
   /* hero */
 
   #hero {
     flex-direction: column-reverse;
+    max-height: 500px;
   }
 
   #hero .hero-left {
+    height: 200px;
     width: 100%;
   }
 
@@ -770,18 +757,20 @@ footer {
   }
 
   /* hero - End */
-
-  #product {
-    margin-top: 0;
+  .product-bottom {
+    width: 95%;
   }
 
   .product-top h2 {
-    font-size: 22px;
+    font-size: 200%;
   }
 
-  .product-bottom h3,
+  .product-bottom h3 {
+    font-size: 125%;
+  }
+
   .product-bottom button {
-    font-size: 90%;
+    font-size: 80%;
   }
 
   #outlet-styles,
